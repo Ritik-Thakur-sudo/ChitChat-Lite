@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.chat-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.message-box {
+    margin-bottom: 10px;
+}
+
+.timestamp {
+    font-size: 0.85em;
+    color: #888;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+.edit-container {
+    margin-top: 40px;
+}
+
+.edit-container h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.edit-container p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #27ae60;
+}
+
+.edit-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #219150;
+}
+
+.delete-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
