@@ -17,7 +17,7 @@ It provides basic chat CRUD functionality with full-stack web development.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB with Mongoose
